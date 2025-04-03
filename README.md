@@ -1,6 +1,6 @@
 # 🌍 GEOCHEM
 
-<![Logo del proyecto GEOCHEM](./Logo.jpeg)
+![Logo del proyecto GEOCHEM](./Logo.jpeg)
 
 ## 📋 Sobre el Proyecto
 
