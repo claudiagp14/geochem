@@ -2,62 +2,56 @@
 
 ![Logo del proyecto GEOCHEM](./Logo.jpeg)
 
-## 📋 Sobre el Proyecto
+## 📋 Who we are
 
-**GEOCHEM** es un proyecto de investigación centrado en el estudio geoquímico de la Antártida mediante técnicas de teledetección. Nuestro equipo multidisciplinario trabaja para entender mejor la composición del suelo antártico y sus implicaciones para el cambio climático global.
+**GEOCHEM** is a research project focused on the study of the impact of climate change in Antarctica using different techniques, such as: geochemistry, remote sensing, geophysics... 
 
-## 🎯 Objetivos
+## 🎯 Main objectives 
 
-- 🧪 Analizar la composición geoquímica de muestras de suelo antártico
-- 📊 Desarrollar nuevos métodos de teledetección para el monitoreo ambiental
-- 🔄 Establecer correlaciones entre datos geoquímicos y cambios climáticos
-- 📈 Crear modelos predictivos para entender la evolución del ecosistema antártico
+- 🧪 Geochemical analysis
+- 🛰️ Monitoring through remote sensing
+- 🔄 Establishing correlations between our data and climate changes
 
-## 👥 Nuestro Equipo
+## 👥 Our team
 
-Nuestro equipo está compuesto por geólogos, químicos, expertos en teledetección y científicos de datos, todos dedicados a la investigación polar y sus implicaciones ambientales.
+Our team is composed of geologists, chemists, remote sensing experts and data scientists, all dedicated to polar research and its environmental implications.
 
-### Investigadores Principales
+### Principal researches
 
-| Investigador | Especialidad |
+| Researcher | Field of study |
 |--------------|--------------|
-| [Nombre del Investigador 1] | Especialista en Geoquímica |
-| [Nombre del Investigador 2] | Experto en Teledetección |
-| [Nombre del Investigador 3] | Analista de Datos Ambientales |
+| Thomas Schmid (CIEMAT, Madrid) | Dr. in Physical Geography |
+| Juan Pablo Corrella (MNCN) - CSIC| Dr. in Geology |
 
-## 🔬 Metodología
+## 🔬 Metodology
 
-Combinamos técnicas avanzadas de:
+We combine advanced techniques of:
 
-- Espectroscopía de masas
-- Análisis de imágenes satelitales
-- Modelado geoquímico
-- Procesamiento de Big Data ambiental
+- Mass Spectroscopy
+- Analysis of satellite images
+- Geochemical modeling
+- Environmental Big Data Processing
 
-## 📚 Publicaciones
+## 📚 Publications
 
-1. [Título de la publicación 1](https://enlace1.com)
-2. [Título de la publicación 2](https://enlace2.com)
-3. [Título de la publicación 3](https://enlace3.com)
+1. [Past and present effects of changing climate and human impact on land surface geochemistry in ice-free areas of the northern Antarctic Peninsula region](https://www.researchgate.net/publication/380734024_Past_and_present_effects_of_changing_climate_and_human_impact_on_land_surface_geochemistry_in_ice-free_areas_of_the_northern_Antarctic_Peninsula_region)
 
-## 🤝 Colaboraciones
 
-Trabajamos en estrecha colaboración con:
+## 🤝 Colaborations
 
-- [Institución colaboradora 1]
-- [Institución colaboradora 2]
-- [Institución colaboradora 3]
+We work in close collaboration with:
 
-## 📊 Resultados Preliminares
+- GFZ German Research Centre for Geosciences (Potsdam, Germany)
+- Université de Caen-Normandie (France)
 
-![Gráfico de resultados](https://via.placeholder.com/600x400?text=Gr%C3%A1fico+de+resultados)
 
-## 📞 Contacto
+## 📞 Our social media
 
-Para más información sobre el proyecto GEOCHEM, no dude en contactarnos a través de [email@ejemplo.com](mailto:email@ejemplo.com)
+Instagram: @projectgeochem
+Twitter: @projectgeochem
 
 ---
 
 <div align="center">
-    <p>© 2024 Proyecto GEOCHEM - Todos los derechos reservados</p>
+    <p>© 2024 Proyecto GEOCHEM - All rights reserved</p>
 </div>
