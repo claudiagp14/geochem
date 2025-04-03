@@ -1,6 +1,8 @@
 # 🌍 GEOCHEM
 
-![Imagen de la Antártida](https://via.placeholder.com/800x300?text=Imagen+de+la+Ant%C3%A1rtida)
+<div align="center">
+  <img src="./logo.jpg" alt="Logo del proyecto GEOCHEM" width="600"/>
+</div>
 
 ## 📋 Sobre el Proyecto
 
