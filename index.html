@@ -3,22 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEOCHEM</title>
+    <title>GEOCHEM - Investigación Geoquímica en la Antártida</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
             text-align: center;
+            padding: 1rem 0;
+            position: relative;
+        }
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
-        img {
-            width: 300px;
-            margin: 20px;
+        .section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .team-member {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            text-align: center;
+            vertical-align: top;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery-item {
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item p {
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        .social-media {
+            margin: 15px 0;
+        }
+        .social-media a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .team-member, .gallery-item {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .team-member, .gallery-item {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the GEOCHEM research Project</h1>
-    <p>The GEOCHEM project is a research project being carried out in the region of the northern peninsula of Antarctica, in the South Shetland Islands..</p>
-    <img src="Logo.jpeg" alt="Descripción de la imagen">
+    <header>
+        <img src="Logo.jpeg" alt="Logo GEOCHEM" class="logo">
+        <h1>GEOCHEM</h1>
+        <p>Investigación Geoquímica y Teledetección en la Antártida</p>
+    </header>
+    
+    <nav>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#investigacion">Investigación</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#galeria">Galería</a>
+        <a href="#publicaciones">Publicaciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <div class="container">
+        <section id="sobre-nosotros" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>GEOCHEM es un proyecto de investigación interdisciplinario dedicado al estudio de la geoquímica en la Antártida mediante técnicas avanzadas de teledetección. Nuestro objetivo es comprender mejor la composición del suelo antártico y sus implicaciones para el ecosistema global y el cambio climático.</p>
+            <p>Fundado en [año], nuestro equipo ha realizado importantes avances en la caracterización de minerales y compuestos químicos presentes en uno de los entornos más extremos y menos explorados del planeta.</p>
+        </section>
+        
+        <section id="investigacion" class="section">
+            <h2>Líneas de Investigación</h2>
+            <div class="research-areas">
+                <h3>Geoquímica Antártica</h3>
+                <p>Estudiamos la composición química del suelo antártico para entender sus propiedades únicas y su evolución a lo largo del tiempo. Nuestras investigaciones ayudan a comprender cómo los minerales y elementos traza se comportan en condiciones extremas.</p>
+                
+                <h3>Teledetección Ambiental</h3>
+                <p>Desarrollamos y aplicamos tecnologías de teledetección para monitorear cambios en el ecosistema antártico sin necesidad de muestreo invasivo. Utilizamos imágenes satelitales y drones equipados con sensores especializados para analizar grandes áreas remotas.</p>
+                
+                <h3>Modelado de Datos Geoquímicos</h3>
+                <p>Creamos modelos predictivos que correlacionan datos geoquímicos con variables ambientales, permitiéndonos anticipar cambios en el ecosistema y entender mejor las interacciones entre el suelo, el hielo y la atmósfera antártica.</p>
+            </div>
+        </section>
+        
+        <section id="equipo" class="section">
+            <h2>Nuestro Equipo</h2>
+            <p>GEOCHEM está formado por un equipo multidisciplinario de investigadores y científicos apasionados por la geoquímica, la teledetección y la preservación del ecosistema antártico.</p>
+            
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Investigador 1">
+                    <h3>Nombre Apellido</h3>
+                    <p>Director de Investigación</p>
+                    <p>Especialista en Geoquímica</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Investigador 2">
+                    <h3>Nombre Apellido</h3>
+                    <p>Investigador Principal</p>
+                    <p>Experto en Teledetección</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="/api/placeholder/150/150" alt="Investigador 3">
+                    <h3>Nombre Apellido</h3>
+                    <p>Investigador Asociado</p>
+                    <p>Especialista en Análisis de Datos</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="galeria" class="section">
+            <h2>Galería</h2>
+            <p>Imágenes de nuestro trabajo de campo en la Antártida y resultados de investigación.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Trabajo de campo en la Antártida">
+                    <p>Investigadores tomando muestras de suelo</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Análisis de muestras">
+                    <p>Análisis espectroscópico de muestras</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Imagen satelital">
+                    <p>Imagen satelital procesada de la región de estudio</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Equipo de investigación">
+                    <p>Equipo de investigación durante la expedición 2024</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Visualización de datos">
+                    <p>Visualización 3D de concentraciones geoquímicas</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/300" alt="Laboratorio">
+                    <p>Análisis de laboratorio de muestras antárticas</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="publicaciones" class="section">
+            <h2>Publicaciones</h2>
+            <p>Nuestras investigaciones más recientes publicadas en revistas científicas de prestigio.</p>
+            
+            <ul>
+                <li>
+                    <h3>Título de la Publicación 1</h3>
+                    <p>Autores: Apellido, N., Apellido, N., et al. (2024)</p>
+                    <p>Revista: Journal of Geochemical Research</p>
+                    <p>Resumen: Breve descripción de la investigación y sus hallazgos principales...</p>
+                </li>
+                
+                <li>
+                    <h3>Título de la Publicación 2</h3>
+                    <p>Autores: Apellido, N., Apellido, N., et al. (2023)</p>
+                    <p>Revista: Remote Sensing Applications</p>
+                    <p>Resumen: Breve descripción de la investigación y sus hallazgos principales...</p>
+                </li>
+                
+                <li>
+                    <h3>Título de la Publicación 3</h3>
+                    <p>Autores: Apellido, N., Apellido, N., et al. (2023)</p>
+                    <p>Revista: Antarctic Science</p>
+                    <p>Resumen: Breve descripción de la investigación y sus hallazgos principales...</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Estamos interesados en colaboraciones y en compartir nuestros hallazgos con la comunidad científica.</p>
+            
+            <div>
+                <p><strong>Email:</strong> contacto@geochem-project.org</p>
+                <p><strong>Dirección:</strong> Departamento de Ciencias de la Tierra, Universidad de [Nombre], Ciudad, País</p>
+                <p><strong>Teléfono:</strong> +XX XXX XXX XXX</p>
+            </div>
+            
+            <div class="social-media">
+                <p>Síguenos en redes sociales:</p>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">ResearchGate</a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Proyecto GEOCHEM | Todos los derechos reservados</p>
+        <p>Financiado por [Nombre de la Institución/Organización]</p>
+    </footer>
 </body>
 </html>
