@@ -1,8 +1,6 @@
 # 🌍 GEOCHEM
 
-<div align="center">
-  <img src="./logo.jpg" alt="Logo del proyecto GEOCHEM" width="600"/>
-</div>
+<![Logo del proyecto GEOCHEM](./logo.jpg)
 
 ## 📋 Sobre el Proyecto
 
